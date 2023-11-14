@@ -13,8 +13,7 @@ local requiredMethods = {
     UpvalueScanner = import("modules/UpvalueScanner").RequiredMethods,
     ScriptScanner = import("modules/ScriptScanner").RequiredMethods,
     ModuleScanner = import("modules/ModuleScanner").RequiredMethods,
-    ClosureSpy = import("modules/ClosureSpy").RequiredMethods,
-    RemoteSpy = import("modules/RemoteSpy").RequiredMethods
+    ClosureSpy = import("modules/ClosureSpy").RequiredMethods
 }
 
 local constants = {
